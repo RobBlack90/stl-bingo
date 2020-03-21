@@ -10,7 +10,7 @@
         </div>
         <div class="pb-10">
           <p class="my-4">
-            It's a strange, socially distant time we're livin' in, and we all want to do what you can to help out our favorite STL small businesses! I've created a bingo card to make sure you spread the love! Generate a custom bingo card filled with a randomized selection of this city's best local food and/or drink establishments currently offering takeout or delivery. Take a screenshot of your card, post to your favorite social media site (using the hashtag #STLBingo), and mark the spots you've supported!  
+            It's a strange, socially distant time we're livin' in, and we all want to do what we can to help out our favorite STL small businesses! So I've created a bingo card to make sure you spread the love! Generate a custom bingo card filled with a randomized selection of this city's best local food and/or drink establishments currently offering takeout or delivery. Take a screenshot of your card, post to your favorite social media site (using the hashtag #STLBingo), and mark the spots you've supported!  
           </p>
           <p class="my-4">
             <span class="italic font-semibold">What do you win if you get a bingo?</span> Currently- the satisfaction of helping out some local spots!
