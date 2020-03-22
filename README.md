@@ -1,5 +1,8 @@
 # stl-bingo
 
+Check it out! 
+https://stlbingo.rocks
+
 ## Project setup
 ```
 npm install
