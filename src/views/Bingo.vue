@@ -54,6 +54,10 @@ export default {
     establishments = this.shuffle(establishments)
     establishments.length = this.isFourRows ? 20 : 25
     this.establishments = establishments
+
+    if (this.isMobile) {
+      this.openDialogue()
+    }
   },
   computed: {
     gridClasses: function () {
@@ -65,9 +69,47 @@ export default {
       let spacing = 'flex flex-col justify-center items-center'
       spacing = this.isFourRows ? `${spacing} pt-5 pb-10` : `${spacing} p-4`
       return spacing 
+    },
+    isMobile() {
+      return screen.width < 768         
     }
   },
   methods: {
+    openDialogue() {
+      this.$confirm('Makes screenshots easier!', 'View your card fullscreen?', {
+        confirmButtonText: 'Sure!',
+        cancelButtonText: 'Nah'
+      }).then(() => {
+        this.toggleFullscreen()
+      }).catch(() => {})
+    },
+    toggleFullscreen: function(){
+      var elem = document.documentElement;
+      if (
+        document.fullscreenEnabled || 
+        document.webkitFullscreenEnabled || 
+        document.mozFullScreenEnabled ||
+        document.msFullscreenEnabled
+      ) {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+            this.isFullscreen = true;
+            return;
+          } else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+            this.isFullscreen = true;
+            return;
+          } else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+            this.isFullscreen = true;
+            return;
+          } else if (elem.msRequestFullscreen) {
+            elem.msRequestFullscreen();
+            this.isFullscreen = true;
+            return;
+          }
+      }
+    },
     shuffle (array) {
       let currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -95,5 +137,9 @@ export default {
 <style lang="scss">
   .font-xxs {
     font-size: .5rem;
+  }
+  .el-message-box {
+    width: auto;
+    display: inherit;
   }
 </style>
