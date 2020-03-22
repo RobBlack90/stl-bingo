@@ -16,13 +16,12 @@ export default {
   data: function () {
     return {}
   },
-    computed:{
-      isMobile(){
-        return screen.width < 768         
-      }
-    },
-  methods: {
-  }
+  computed:{
+    isMobile() {
+      return screen.width < 768         
+    }
+  },
+  methods: {}
 }
 </script>
 
@@ -36,12 +35,19 @@ export default {
 
 .footer {
   margin: .5rem;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: .5rem;
+  }
 
   a {
     float: right;
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
+    margin-left: auto;
   }
 
   a:hover {

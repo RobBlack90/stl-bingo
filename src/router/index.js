@@ -13,7 +13,7 @@ const routes = [
   },
   {
     path: '/card/:type',
-    name: 'Details',
+    name: 'BingoCard',
     component: Bingo,
     meta: {
       browserTitle: 'STL Bingo!'

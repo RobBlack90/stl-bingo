@@ -1,18 +1,22 @@
 <template>
   <div class="flex flex-col justify-center items-center">
-    <div class="border-solid h-full min-w-full md:min-w-1/2">
+    <div class="h-full min-w-full md:min-w-1/2">
       <div class="px-2 pt-2">
-        <div class="flex flex-col justify-center items-center">
-            <img class="w-full md:w-3/6 cursor-pointer" :class="{ 'py-10': isFourRows, 'p-4': !isFourRows}" @click="goHome()" alt="STL Bingo!" src="../assets/images/STLBingo.png">
+        <div :class="logoSpacing">
+            <img class="w-full md:w-3/6 cursor-pointer" @click="goHome()" alt="STL Bingo!" src="../assets/images/STLBingo.png">
             <p>#STLBingo</p>
+            <p class="font-xxs">https://stlbingo.rocks/</p>
         </div>
       </div>
-      <div :class="gridClasses">
-        <div class="bg-white m-1 pb-12/12 relative text-black" 
-        v-for="establishment in establishments" :key="establishment.name">
-          <div class="absolute h-full w-full top-auto text-xs md:text-sm flex justify-center items-center text-center break-words">
-            {{ establishment.name }}
-            </div>
+      <div class="h-full p-0">
+        <p class="text-xs text-center">Mark the spots you've gotten takeout/delivery!</p>
+        <div :class="gridClasses">
+          <div class="bg-white m-1 pb-11/12 relative text-black" 
+          v-for="establishment in establishments" :key="establishment.name">
+            <div class="absolute h-full w-full top-auto text-xs md:text-sm flex justify-center items-center text-center break-words">
+              {{ establishment.name }}
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -53,9 +57,14 @@ export default {
   },
   computed: {
     gridClasses: function () {
-      let gridClass = 'h-full grid grid-cols-5 grid-flow-col p-0'
+      let gridClass = 'grid grid-cols-5 grid-flow-col'
       gridClass = this.isFourRows ? `${gridClass} grid-rows-4 md:px-4` : `${gridClass} grid-rows-5 md:px-10`
       return gridClass 
+    },
+    logoSpacing: function () {
+      let spacing = 'flex flex-col justify-center items-center'
+      spacing = this.isFourRows ? `${spacing} pt-5 pb-10` : `${spacing} p-4`
+      return spacing 
     }
   },
   methods: {
@@ -83,3 +92,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .font-xxs {
+    font-size: .5rem;
+  }
+</style>

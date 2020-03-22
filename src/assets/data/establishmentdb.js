@@ -52,7 +52,7 @@ export default [
     "type": "booze"
   },
   {
-    "name": "Modern",
+    "name": "Modern Brewery",
     "type": "booze"
   },
   {
