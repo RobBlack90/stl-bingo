@@ -8,24 +8,24 @@
           <p class="text-lg">#STLBingo</p>
         </div>
         <div class="pb-10">
-          <p class="my-4">
+          <p class="my-6">
             It's a strange, socially distant time we're livin' in, and we all want to do what we can to help out our favorite STL small businesses. So here's a bingo card to make sure you spread the love! Generate a custom bingo card filled with a randomized selection of this city's best local food and/or drink establishments currently offering takeout or delivery. Take a screenshot of your card, post to your favorite social media site (using the hashtag #STLBingo), and mark the spots you've supported!  
           </p>
-          <p class="my-4">
+          <p class="my-6">
             <span class="italic font-semibold">What do you win if you get a bingo?</span> Currently- the satisfaction of helping out some local spots!
           </p>
-          <p class="my-4">
+          <p class="my-6">
             <span class="italic font-semibold">Why is there no free space?</span> C'mon son! No freebies here! Help out your neighbor!
           </p>
-          <p class="my-4">
+          <p class="my-6">
             <span class="italic font-semibold">I think you missed establishment?</span> I probably did. Shoot me an email (RobBlack90@gmail.com) or Instagram message (<a class="underline" href="https://www.instagram.com/thatrobbyblack" target="_blank">@ThatRobbyBlack</a>) and I'll get it added!    
           </p>
-          <p class="my-4">
+          <p class="my-6">
             <span class="italic font-semibold">Are there other ways to help?</span> Glad you asked! <a class="underline" href="https://stlgives.org/covid19/gateway-resilience-fund/" target="_blank">The Gateway Resilience Fund</a> provides short term monetary relief to employees and owners of independent bars, restaurants, and shops in the St. Louis area affected by closures and other circumstances brought about by the COVID-19 outbreak. Consider donating if you're able! 
           </p>
         </div>
         <div class="flex flex-col justify-center items-center">
-          <el-dropdown class="p-5">
+          <el-dropdown class="p-4">
             <span class="el-dropdown-link">
               {{ selectedType.label || 'Choose Type' }} <i class="el-icon-arrow-down el-icon--right"></i>
             </span>
