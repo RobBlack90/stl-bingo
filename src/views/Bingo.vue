@@ -13,7 +13,7 @@
         <div :class="gridClasses">
           <div class="bg-white m-1 pb-11/12 relative text-black" 
           v-for="establishment in establishments" :key="establishment.name">
-            <div class="absolute h-full w-full top-auto text-xs md:text-sm flex justify-center items-center text-center break-words">
+            <div class="absolute h-full w-full top-auto font-xxs md:text-sm flex justify-center items-center text-center break-words">
               {{ establishment.name }}
               </div>
           </div>
