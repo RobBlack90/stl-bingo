@@ -42,7 +42,7 @@ export default {
     this.selectedType = this.$route.params.type.toLowerCase()
 
     if (this.selectedType !== 'all') {
-      establishments = establishments.filter(establishment => establishment.type === this.selectedType)
+      establishments = establishments.filter(establishment => establishment.type.includes(this.selectedType))
       if (establishments.length < 20) {
         this.$router.push('/')
       }

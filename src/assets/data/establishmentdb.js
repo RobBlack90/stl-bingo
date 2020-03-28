@@ -1,198 +1,206 @@
 export default [
   {
     "name": "UCBC",
-    "type": "booze"
+    "type": ["booze", "food"]
   },
   {
     "name": "Schlafly",
-    "type": "booze"
+    "type": ["booze", "food"]
   },
   {
     "name": "Earthbound",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "2nd Shift",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "4 Hands",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Bluewood",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Wellspent",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Charleville",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Rockwell",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Heavy Riff",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Civil Life",
-    "type": "booze"
+    "type": ["booze"]
+  },
+  {
+    "name": "Square One",
+    "type": ["booze", "food"]
   },
   {
     "name": "Wellbeing",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Brick River Cider",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Modern Brewery",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Side Project",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Perennial",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Center Ice",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "StilL 630",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "1220 Spirits",
-    "type": "booze"
-  },
-  {
-    "name": "Twisted Roots",
-    "type": "booze"
+    "type": ["booze"]
   },
   {
     "name": "Grace Meat + 3",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Mission Taco",
-    "type": "food"
-  },
-  {
-    "name": "Cafe Natasha's",
-    "type": "food"
-  },
-  {
-    "name": "Blues City Deli",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Crown Candy Kitchen",
-    "type": "food"
-  },
-  {
-    "name": "Kitchen House Coffee",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Egg",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Gioia's Deli",
-    "type": "food"
+    "type": ["food"]
   },
   {
-    "name": "The King & I",
-    "type": "food"
-  },
-  {
-    "name": "La Patisserie Chouquette",
-    "type": "food"
+    "name": "King & I",
+    "type": ["food"]
   },
   {
     "name": "Lulu's Local Eatery",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Mac's Local Eats",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Mayo Ketchup",
-    "type": "food"
-  },
-  {
-    "name": "Morning Glory Diner",
-    "type": "food"
-  },
-  {
-    "name": "Pappy's Smokehouse",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Peacemaker Lobster & Crab Co.",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Salt + Smoke",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Seoul Taco",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "The Scottish Arms",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Sauce on the Side",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Sasha's on Shaw",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Shaved Duck",
-    "type": "food"
-  },
-  {
-    "name": "Southern",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Steve's Hot Dogs",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Taco Circus",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Tree House",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Vincent Van Doughnut",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "The Vine",
-    "type": "food"
+    "type": ["food"]
   },
   {
     "name": "Yaquis",
-    "type": "food"
+    "type": ["food"]
+  },
+  {
+    "name": "Clementine’s Creamery",
+    "type": ["food"]
+  },
+  {
+    "name": "Alta Calle",
+    "type": ["food"]
+  },
+  {
+    "name": "Hartford Coffee Co.",
+    "type": ["food"]
+  },
+  {
+    "name": "Juniper",
+    "type": ["food"]
+  },
+  {
+    "name": "Lona's Lil Eats",
+    "type": ["food"]
+  },
+  {
+    "name": "Mangia Italiano",
+    "type": ["food"]
+  },
+  {
+    "name": "Sanctuaria",
+    "type": ["food"]
+  },
+  {
+    "name": "Strange Donuts",
+    "type": ["food"]
+  },
+  {
+    "name": "Zia's",
+    "type": ["food"]
   }
 ]
