@@ -21,6 +21,9 @@
           <p class="my-4">
             <span class="italic font-semibold">I think you missed establishment?</span> I probably did. Shoot me an email (RobBlack90@gmail.com) or Instagram message (<a class="underline" href="https://www.instagram.com/thatrobbyblack" target="_blank">@ThatRobbyBlack</a>) and I'll get it added!    
           </p>
+          <p class="my-4">
+            <span class="italic font-semibold">Are there other ways to help?</span> Glad you asked! <a class="underline" href="https://stlgives.org/covid19/gateway-resilience-fund/" target="_blank">The Gateway Resilience Fund</a> provides short term monetary relief to employees and owners of independent bars, restaurants, and shops in the St. Louis area affected by closures and other circumstances brought about by the COVID-19 outbreak. Consider donating if you're able! 
+          </p>
         </div>
         <div class="flex flex-col justify-center items-center">
           <el-dropdown class="p-5">
