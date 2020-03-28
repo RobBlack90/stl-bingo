@@ -5,7 +5,7 @@
         <div :class="logoSpacing">
             <img class="w-full md:w-3/6 cursor-pointer" @click="goHome()" alt="STL Bingo!" src="../assets/images/STLBingo.png">
             <p>#STLBingo</p>
-            <p class="font-xxs">https://stlbingo.rocks/</p>
+            <p class="text-xxs">https://stlbingo.rocks/</p>
         </div>
       </div>
       <div class="h-full p-0">
@@ -13,7 +13,7 @@
         <div :class="gridClasses">
           <div class="bg-white m-1 pb-11/12 relative text-black" 
           v-for="establishment in establishments" :key="establishment.name">
-            <div class="absolute h-full w-full top-auto font-xxs md:text-sm flex justify-center items-center text-center break-words">
+            <div class="absolute h-full w-full top-auto text-xxs font-semibold md:text-sm md:font-medium flex justify-center items-center text-center break-words">
               {{ establishment.name }}
               </div>
           </div>
@@ -92,8 +92,3 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-  .font-xxs {
-    font-size: .5rem;
-  }
-</style>

@@ -1,5 +1,4 @@
 <template>
-<!-- <div class="grid-container"></div> -->
 <div class="font-mono text-white min-h-full relative">
   <div class="mx-2 md:mx-32 h-full">
     <div class="flex flex-col justify-center items-center">
