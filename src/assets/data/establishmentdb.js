@@ -88,7 +88,7 @@ export default [
     "type": ["food"]
   },
   {
-    "name": "Crown Candy Kitchen",
+    "name": "Layla's",
     "type": ["food"]
   },
   {
@@ -145,10 +145,6 @@ export default [
   },
   {
     "name": "Steve's Hot Dogs",
-    "type": ["food"]
-  },
-  {
-    "name": "Taco Circus",
     "type": ["food"]
   },
   {
